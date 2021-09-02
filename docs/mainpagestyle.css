@@ -51,3 +51,23 @@
         text-align:center;
 
 }
+
+#profilepic img{
+
+        float: left;
+
+}
+
+#profilepic h3{
+
+        text-align:center;
+
+}
+
+#howtoreachmetable{
+
+        float:center;
+        text-align: center;
+        color:green;
+
+}
