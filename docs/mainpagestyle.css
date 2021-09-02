@@ -60,10 +60,20 @@
 
 #profilepic p{
 
-        clear:left;
         text-align:center;
-        color:green;
-        background-color: yellow;
+
+}
+
+#profilepic a{
+
+        text-decoration: none;
+
+}
+
+#profilepic a:hover{
+
+        color:crimson;
+        text-shadow: 5px black;
 
 }
 
