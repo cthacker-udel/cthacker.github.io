@@ -49,14 +49,42 @@
 #introTitle{
 
         text-align:center;
-        border: 20px dashed white;
+        border: 2px dashed rgb(187, 180, 180);
 
 }
 
-#profilepic img{
+#introTitleBody{
 
-        float: left;
+        border: 2px dashed green;
+
+}
+
+#aboutme{
+
+        border: 2px dashed white;
+
+}
+
+#aboutme img{
+
+        margin-right: 100%;
         padding-left: 10px;
+
+}
+
+#aboutmetitle{
+
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:large;
+        color:white;
+        text-decoration:underline;
+
+}
+
+#aboutmetext{
+
+        text-align: center;
 
 }
 
@@ -91,5 +119,14 @@
         float:center;
         text-align: center;
         color:green;
+
+}
+
+#howtoreachme{
+
+        font-family:monospace;
+        font-size: large;
+        font-stretch:expanded;
+        text-decoration:underline;
 
 }
