@@ -6,6 +6,18 @@
 
 }
 
+#bottom a:hover{
+
+        text-shadow: 1px 1px 1px black;
+
+}
+
+#top a:hover{
+
+        text-shadow: 1px 1px 1px black;
+
+}
+
 #bottom a{
 
         text-decoration:none;
