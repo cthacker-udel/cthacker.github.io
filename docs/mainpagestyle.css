@@ -49,12 +49,14 @@
 #introTitle{
 
         text-align:center;
+        border: 20px dashed white;
 
 }
 
 #profilepic img{
 
         float: left;
+        padding-left: 10px;
 
 }
 
