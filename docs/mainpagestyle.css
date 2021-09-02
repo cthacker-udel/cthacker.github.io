@@ -1,16 +1,13 @@
 
 
-#topofpagelink small{
+#top{
 
         text-align:center;
-        font-size:large;
-        background-color:black;
-        color:green;
+
 }
 
-.portfoliolink a {
+#bottom{
 
-        background-color:black;
-        color:green;
+        text-align:center;
 
 }
