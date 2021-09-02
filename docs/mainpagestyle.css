@@ -1,4 +1,9 @@
 
-footer{background: rgb(96, 209, 96);
-        color: rgb(1, 29, 1);
+
+.portfoliolink {
+
+        background-color:rgb(20, 20, 20);
+        color:white;
+        text-align:center;
+
 }
