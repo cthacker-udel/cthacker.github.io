@@ -1,0 +1,59 @@
+
+
+/*
+
+Body styling
+
+*/
+
+#mainbody{
+
+    background-color: black;
+
+}
+
+
+/*
+
+
+Header styling
+
+
+*/
+
+#headerH1{
+
+    text-align: center;
+    color:green;
+    text-decoration: underline;
+
+
+}
+
+
+
+
+/*
+
+Column1 styling
+
+*/
+
+#column1{
+
+    border: 2px solid black;
+
+}
+
+/*
+
+Column2 Styling
+
+*/
+
+
+#column2{
+
+    border: 2px solid green;
+
+}
