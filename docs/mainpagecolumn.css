@@ -25,7 +25,6 @@ Header styling
 
     text-align: center;
     color:green;
-    text-decoration: underline;
 
 
 }
@@ -75,12 +74,6 @@ Column2 Styling
 
 }
 
-#column2 li{
-
-    color: white;
-
-}
-
 #column2 a{
 
     text-decoration:none;
@@ -91,5 +84,25 @@ Column2 Styling
 
     color:crimson;
     text-shadow: 5px black;
+
+}
+
+#column2 p{
+
+    text-align: center;
+    color: white;
+
+}
+
+/*
+
+Column3 Styling
+
+*/
+
+
+#column3{
+
+    border: 2px solid black;
 
 }
