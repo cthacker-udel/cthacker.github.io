@@ -1,0 +1,4 @@
+I followed the link posted in canvas, https://www.freecodecamp.org/news/learn-the-bootstrap-4-grid-system-in-10-minutes-e83bfae115da/ , under the resources for bootstrap, and this tutorial
+absolutely hit the nail on the head. It goes over the fundamentals first instead of looking at multiple technical docs, and teaches you the layout that bootstrap implements. Once you
+understand the rows and columns mechanism, formatting your page layout is seamless, super efficient. I am so so very glad I took the time to import and utilize bootstrap in my project,
+the ease of use so far in the beginning, formatting with rows and columns, provides such a simplistic and elegant layout to my page. 
