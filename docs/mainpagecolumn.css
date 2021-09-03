@@ -106,3 +106,22 @@ Column3 Styling
     border: 2px solid black;
 
 }
+
+#column3H5{
+
+    text-align: center;
+
+}
+
+#column3 li{
+
+    color: rgb(214, 206, 206);
+
+}
+
+#column3 a:hover{
+
+    color:crimson;
+    text-shadow: 5px black;
+
+}
