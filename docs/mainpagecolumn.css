@@ -45,6 +45,15 @@ Column1 styling
 
 }
 
+#column1IMG{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+
+}
+
 /*
 
 Column2 Styling
@@ -55,5 +64,32 @@ Column2 Styling
 #column2{
 
     border: 2px solid green;
+
+}
+
+#column2H4{
+
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(163, 148, 148);
+
+}
+
+#column2 li{
+
+    color: white;
+
+}
+
+#column2 a{
+
+    text-decoration:none;
+
+}
+
+#column2 a:hover{
+
+    color:crimson;
+    text-shadow: 5px black;
 
 }
