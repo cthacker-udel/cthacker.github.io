@@ -194,3 +194,18 @@ Column 2 Styling
     color: white;
 
 }
+
+/*
+
+CISC 275 LINKS
+
+*/
+
+#teamnamegenlink:hover{
+
+
+    color:crimson;
+    text-shadow: 5px black;
+
+
+}
