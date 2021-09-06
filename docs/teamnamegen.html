@@ -5,15 +5,17 @@
 
         <title>Team Name Generator</title>
         <meta charset="utf-8">
+        <script src="scripts2.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="teamnamegenerator.css">
         <!-- Author : cthacker-->
 
     </head>
-    <body>
+    <body style="background-color: black">
 
-        <div class="row" id="header">
+        <div class="row" id="header;">
 
-            <div class="col">
+            <div class="col" style="color: rgb(30, 110, 163);">
 
                 <h1 id="row1H1">Random Team Name Generator</h1>
 
@@ -25,26 +27,35 @@
 
             <div class="col" id="row2col1">
 
-                <p>Instructions: To generate a random team name, press the button that says generate random team name, and the name will be displayed</p>
+                <p style="color:rgb(41, 100, 139)">Instructions: To generate a random team name, press the button that says generate random team name, and the name will be displayed</p>
 
             </div>
 
         </div>
 
+        <div class="row" id="row3">
+            
+            <div class="col" id="row3col1">
 
-        <div class="row" id="row4">
-
-            <div class="col" id="row4col1">
-
-                <form id="teamnamebuttonform">
-
-                    <input type="button" onclick="scripts.js" value="Team Name Generator Button"  id="teamnamebutton">
-
-                </form>
-
+                <h1 id="row3col1H1">____________________</h1>
 
             </div>
 
+            <div class="col" id="row3col2">
+
+                <h1 id="row3col2H1">____________________</h1>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+
+                <input type="button" value="Press to Generate Random Team Name" onclick="modernGenerateNameV3()" id="row4col1button">
+
+            </div>
 
         </div>
 
