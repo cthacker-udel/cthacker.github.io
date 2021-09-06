@@ -13,6 +13,8 @@ function process_data(thedata){
 
 function modernGenerateNameV3(){
 
+    alert('using modernGenerateNameV3');
+
     let url = "https://random-word-api.herokuapp.com/word?number=2&swear=0";
     let data = '';
 
