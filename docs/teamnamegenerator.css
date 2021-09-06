@@ -1,0 +1,25 @@
+/*
+
+row1 stylings
+
+*/
+
+#row1H1{
+
+    text-align:center;
+    text-decoration: underline;
+
+}
+
+/*
+
+Row 2 Stylings
+
+*/
+
+#row2col1{
+
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
