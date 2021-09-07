@@ -3,7 +3,8 @@
 
 function basicfunction(){
 
-    alert('using this function');
+    //alert('using this function');
+    alert(`${document.getElementById('row3col1H1').innerHTML}`);
     document.getElementById("row3col1H1").innerHTML = "HELLO WORLD";
     document.getElementById("row3col2H1").innerHTML = "THIS IS A TEST";
 
