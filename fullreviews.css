@@ -1,0 +1,33 @@
+
+body{
+
+    background-color:rgb(111, 171, 197);
+
+}
+
+/*
+
+Row 1 Styling
+
+*/
+
+#row1col1H1{
+
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+
+/*
+
+Row 2 Styling
+
+*/
+
+#row2col1H2{
+
+    color: black;
+
+}
