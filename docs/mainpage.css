@@ -116,6 +116,7 @@ Column3 Styling
 #column3H5{
 
     text-align: center;
+    color: lightgray;
 
 }
 
@@ -234,5 +235,25 @@ CISC 275 LINKS
 
     text-align: center;
     border: 2px outset green;
+
+}
+
+/*
+
+Row 4 Styling
+
+*/
+
+
+#row4col1button{
+
+    margin: auto;
+    display: block;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border: 1px dashed white;
+    color: white;
+    background-color: black;
 
 }
