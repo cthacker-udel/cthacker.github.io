@@ -24,7 +24,7 @@ function modernGenerateNameV4(){
 
     })
     .then((e) => {
-        console.log(e);
+        process_data(e);
     })
     .catch((err) => {
 
@@ -59,5 +59,3 @@ function modernGenerateNameV3(){
 }
 
 */
-
-modernGenerateNameV4();
