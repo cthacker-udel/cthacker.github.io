@@ -209,3 +209,30 @@ CISC 275 LINKS
 
 
 }
+
+#row3col1H3{
+
+    text-align: center;
+    color: rgb(59, 56, 56);
+    border: 2px outset green;
+
+}
+
+#row3col1Week1UL li{
+
+    color: rgb(80, 115, 156);
+
+}
+
+#row3col1Week1Header{
+
+    color: rgb(80, 115, 156);
+
+}
+
+#row3col2H3{
+
+    text-align: center;
+    border: 2px outset green;
+
+}
