@@ -1,9 +1,32 @@
 
+/*
+
+Generalized tags
+
+*/
+
 body{
 
     background-color:rgb(111, 171, 197);
 
 }
+
+a{
+
+    color: crimson;
+    text-shadow: 10px red;
+
+}
+
+a:hover{
+
+    color: crimson;
+    text-decoration: none;
+    cursor:help;
+
+}
+
+
 
 /*
 
@@ -31,3 +54,11 @@ Row 2 Styling
     color: black;
 
 }
+
+
+/*
+
+Row 3 styling
+
+*/
+
