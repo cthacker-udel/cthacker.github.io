@@ -5,7 +5,7 @@ let httpModule = require('https');
 
 function process_data(thedata){
 
-    console.log(`the data = ${thedata}`);
+    alert(`the data = ${thedata}`);
     document.getElementById("row3col1H1").innerHTML = String(thedata[0]);
     document.getElementById("row3col2H1").innerHTML = String(thedata[1]);
 
