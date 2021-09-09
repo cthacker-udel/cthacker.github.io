@@ -116,7 +116,7 @@ Column3 Styling
 #column3H5{
 
     text-align: center;
-    color: lightgray;
+    color:rgb(163, 148, 148);
 
 }
 
@@ -145,7 +145,7 @@ Column3 Styling
 /*
 
 
-Column 1 Styling
+Row 2 Column 1 Styling
 
 
 */
@@ -154,6 +154,7 @@ Column 1 Styling
 
     text-align: center;
     text-decoration: underline;
+    color:rgb(163, 148, 148);
 
 }
 
@@ -172,7 +173,7 @@ Column 1 Styling
 
 /*
 
-Column 2 Styling
+Row 2 Column 2 Styling
 
 */
 
@@ -181,6 +182,7 @@ Column 2 Styling
 
     text-align: center;
     text-decoration: underline;
+    color:rgb(163, 148, 148);
 
 }
 
@@ -211,10 +213,18 @@ CISC 275 LINKS
 
 }
 
+/*
+
+---- Row 3 Styling
+
+
+*/
+
+
 #row3col1H3{
 
     text-align: center;
-    color: rgb(59, 56, 56);
+    color: lightblue;
     border: 2px outset green;
 
 }
@@ -231,10 +241,42 @@ CISC 275 LINKS
 
 }
 
+
+#row3col1Week1ULHeader{
+
+    color: rgb(204, 196, 196);
+
+}
+
+/*
+
+Row 3 Column 2
+
+*/
+
 #row3col2H3{
 
     text-align: center;
     border: 2px outset green;
+    color: lightblue;
+
+}
+
+#row3col2Week2ULHeader{
+
+    color: rgb(204, 196, 196);
+
+}
+
+#row3col2Week1UL li{
+
+    color: rgb(80, 115, 156);
+
+}
+
+#row3col2Week2UL{
+
+    color: rgb(80, 115, 156);
 
 }
 
