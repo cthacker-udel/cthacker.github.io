@@ -2,13 +2,21 @@
 
 /*
 
-Body styling
+General styling
 
 */
 
 #mainbody{
 
     background-color: black;
+
+}
+
+a:hover{
+
+    color:crimson;
+    text-shadow: 5px black;
+    text-decoration: none;
 
 }
 
