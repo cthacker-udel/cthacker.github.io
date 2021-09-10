@@ -83,3 +83,16 @@ Row 3 styling
 
 
 }
+
+#teamnamegenbutton{
+
+    margin: auto;
+    display: block;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border: 1px dashed white;
+    color: white;
+    background-color: black;
+
+}
