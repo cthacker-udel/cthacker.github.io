@@ -4,7 +4,7 @@
 
 function process_data(thedata){
 
-    alert(`the data = ${thedata}`);
+    //alert(`the data = ${thedata}`);
     console.log(`the data = ${thedata}`);
     document.getElementById("row3col1H1").innerHTML = String(thedata[0]);
     document.getElementById("row3col2H1").innerHTML = String(thedata[1]);
@@ -13,7 +13,7 @@ function process_data(thedata){
 
 function modernGenerateNameV4(){
 
-    alert('running modernGenerateNameV4');
+    //alert('running modernGenerateNameV4');
 
     const url = "https://random-word-api.herokuapp.com/word?number=2&swear=0";
     
