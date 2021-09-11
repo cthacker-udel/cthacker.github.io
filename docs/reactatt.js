@@ -1,7 +1,9 @@
-import React from 'react';
-import ReactDOM, {render} from 'react-dom';
+//import React from 'react';
+//import ReactDOM, {render} from 'react-dom';
 
 'use strict';
+
+const e = React.createElement;
 
 class LeftTextBox extends React.Component{
 
@@ -11,6 +13,49 @@ class LeftTextBox extends React.Component{
 
     }
 
+
+}
+
+class OperandSelector extends React.Component{
+
+    constructor(props){
+
+        super(props);
+
+    }
+
+}
+
+
+class ReactButton extends React.Component{
+
+    constructor(props){
+
+        super(props);
+
+        this.state = {
+
+            value: 'Press to compute',
+
+
+        }
+
+    }
+
+    render(){
+
+        return(
+
+            <button height="200px" width="200px">
+
+                {this.state.value};
+
+            </button>
+
+
+        );
+
+    }
 
 }
 
@@ -36,8 +81,10 @@ class MainPage extends React.Component{
 
 
     render(){
-
+        
+        return(
         <div class="reactdiv">
+        <script type="text/babel">
 
             <div class="row">
 
@@ -61,8 +108,19 @@ class MainPage extends React.Component{
 
             </div>
 
+            <div class="row">
 
+                <div class="col">
+
+                    <ReactButton />
+
+                </div>
+
+            </div>
+
+        </script>
         </div>
+        );
 
 
     }
@@ -70,12 +128,16 @@ class MainPage extends React.Component{
 }
 
 
-ReactDOM.render(
+const domContainer = document.querySelector("#react-container");
+
+ReactDOM.render((
 
     <React.StrictMode>
 
+        <MainPage />
 
     </React.StrictMode>,
     document.getElementById('root')
+),domContainer
     
-)
+);
