@@ -134,6 +134,12 @@ Column3 Styling
 
 }
 
+#sideprojectlist{
+
+    background-color: black;
+
+}
+
 /*
 
 
@@ -295,8 +301,5 @@ Row 4 Styling
     height: 30px;
     width: 300px;
     text-align: center;
-    border: 1px dashed white;
-    color: white;
-    background-color: black;
 
 }
